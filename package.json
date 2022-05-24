@@ -43,7 +43,8 @@
         "webpack-dev-server": "^3.11.2"
     },
     "dependencies": {
-        "@consta/uikit": "3.13.0",
+        "@consta/uikit": "^3.23.0",
+        "@consta/header": "^0.4.4",
         "ky": "0.28.5",
         "mocker-api": "2.9.0",
         "react": "17.0.1",

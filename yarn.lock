@@ -341,10 +341,19 @@
   resolved "https://registry.yarnpkg.com/@bem-react/classnames/-/classnames-1.3.10.tgz"
   integrity sha512-tn+45Ii+S5FcYuO5FMs9YLSMUc355iUho7mwFeMMihi/ZZCQjvdR5AhVexnL9GS7pMtOeV0OsDOPDkW1sXVI3A==
 
-"@consta/uikit@3.13.0":
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/@consta/uikit/-/uikit-3.13.0.tgz#07bffb2c0e85f63b666804e0bb996687be515a82"
-  integrity sha512-RnHinYvF2OhP9T+B1Yp7GMbcwi1EI1f3nb9gsFqZn1OR0xkKvRzJvl0KKxCa8VYW+vv+bLZRt28MqLuyGg7dCw==
+"@consta/header@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@consta/header/-/header-0.4.4.tgz#f6f92abbb5334a0f84bf05a855a3fb99d7e1f397"
+  integrity sha512-LSvdF2+lXVZHEn3c6yOBpdjUr1v4+2AJCyKyOaHtlkjhTr+PLWK+FEMGiros+3Mf2JWg5+YCMhk3pUsHbXZxEQ==
+  dependencies:
+    "@bem-react/classname" "^1.5.8"
+    date-fns "^2.17.0"
+    react-transition-group "^4.4.2"
+
+"@consta/uikit@^3.23.0":
+  version "3.23.1"
+  resolved "https://registry.yarnpkg.com/@consta/uikit/-/uikit-3.23.1.tgz#65ec1e02706468c0c34c880e880dda2f19c7f3fe"
+  integrity sha512-Ft80B29KBU7VRwpOluDaVuZaSY1OBvHs3P1Y1K6TwDvgMZgl6fQU1jKftmCFMeea3M7mkfn8sA7bV05M/J4wbQ==
   dependencies:
     "@bem-react/classname" "^1.5.8"
     "@bem-react/classnames" "^1.3.9"
@@ -557,16 +566,6 @@
     "@types/node" "*"
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
-
-"@monolithed/error-boundary-component@0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@monolithed/error-boundary-component/-/error-boundary-component-0.0.3.tgz#9ab3e00e6a8b485a41d6883852eba7a59bf847cc"
-  integrity sha512-70j6rcQWRa206O43hhsoK0XeWIQd6H8VAcR+HGK2k7U4XpDp5ii0quZnLiOknaViBuiYmau4D0kW/f4d+asQBA==
-
-"@monolithed/logger@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@monolithed/logger/-/logger-0.1.0.tgz#7b922d6dabdf6eddcfcca2f8459dcf0d12ee9a17"
-  integrity sha512-VQKuVwjhd9h+5ZEdmZ0OprAikP/OmAjI4QRVYYq37CYRhMqDWYHWics+tOXewBINXOg5wLozzlEvFbsOwAp9VQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -4502,11 +4501,6 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
-node-fetch@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
-
 node-forge@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz"
@@ -5172,7 +5166,7 @@ react-textarea-autosize@^7.1.2:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react-transition-group@^4.4.1:
+react-transition-group@^4.4.1, react-transition-group@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.2.tgz"
   integrity sha512-/RNYfRAMlZwDSr6z4zNKV6xu53/e2BuaBbGhbyYIXTrmgu/bGHzmqOs7mJSJBHy9Ud+ApHx3QjrkKSp1pxvlFg==
